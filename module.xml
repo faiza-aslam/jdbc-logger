@@ -1,0 +1,12 @@
+<module xmlns="urn:jboss:module:1.1" name="com.examples">
+	<resources>
+		<resource-root path="jdbc-logger-0.0.1-SNAPSHOT.jar"/>
+		<resource-root path="c3p0-0.9.5.1.jar" />
+		<resource-root path="mchange-commons-java-0.2.10.jar" />
+	</resources>
+	<dependencies>
+		<module name="javax.api"/>
+		<module name="com.mysql.driver"/>
+		<module name="org.apache.commons.dbutils"/>
+	</dependencies>
+</module>
