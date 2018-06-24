@@ -2,6 +2,11 @@
 JDBC Logger is a utility app that logs events to database. For this, a custom Handler "EventLoggingHandler" is defined which extends java.util.logging.Handler.
 This utility is cross container (i.e. it can be run on different containers). SQL script to setup database and table is also added. The sample to test this functionality is available [here](https://github.com/faiza-aslam/logging-tester). 
 
+Clone this repo and execute following command to build this project:
+```
+mvn clean install
+```
+
 **Tomcat** & **WildFly** configuration is as follows:
 ------
 ### Tomcat
